@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -13,8 +13,6 @@ namespace GreenvilleRevenueGUI
 {
     public partial class Form1 : Form
     {
-        public String playerName = "Angel Hernandez";
-        public String dealerName = "Roger Webster";
 
         Deck DeckofCards = new Deck();
         Hand PlayerHand;
@@ -121,7 +119,6 @@ namespace GreenvilleRevenueGUI
             BlackJack((DealerVal1 + DealerVal2), PlayerTotal);
 
             cardsdealt = DeckofCards.GetCurrentCardNumber();
-            label12.Text = cardsdealt.ToString();
         }
 
         private void Reset()
@@ -164,7 +161,6 @@ namespace GreenvilleRevenueGUI
             }
 
             cardsdealt = DeckofCards.GetCurrentCardNumber();
-            label12.Text = cardsdealt.ToString();
         }
 
         private void DealACardtoPlayer()
@@ -271,17 +267,11 @@ namespace GreenvilleRevenueGUI
             }
         }
 
-        private void button3_Click(object sender, EventArgs e)
-        {
-            button3.Image = RememberImage;
-        }
-
         private void button10_Click(object sender, EventArgs e)
         {
             EvaluateCardsPlayer();
             WinnerDecided = true;
             cardsdealt = DeckofCards.GetCurrentCardNumber();
-            label12.Text = cardsdealt.ToString();
         }
 
         private void DealerLogic() {
@@ -351,5 +341,3 @@ namespace GreenvilleRevenueGUI
         }
     }
 }
-
-

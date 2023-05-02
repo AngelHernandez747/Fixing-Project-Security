@@ -1,6 +1,4 @@
-# Security Assessment Report  
-<p style="text-align: center;"># Security Assessment Report</p>
-
+# Security Assessment Report
 Version N.0  
 May 1, 2023  
  

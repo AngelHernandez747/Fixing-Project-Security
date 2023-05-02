@@ -1,27 +1,22 @@
-Security Assessment Report
-
-
+# Security Assessment Report
 
 Version N.0
 May 1, 2023
-
-
  
-Table of Contents
+# Table of Contents
 1.	Summary	3
-1.	Assessment Scope	3
-2.	Summary of Findings	3
-3.	Summary of Recommendations	4
+  1.	Assessment Scope	3
+  2.	Summary of Findings	3
+  3.	Summary of Recommendations	4
 2.	Goals, Findings, and Recommendations	4
-1.	Assessment Goals	4
-2.	Detailed Findings	5
-3.	Recommendations	5
+  1.	Assessment Goals	4
+  2.	Detailed Findings	5
+  3.	Recommendations	5
 3.	Methodology for the Security Control Assessment	5
-4.	Figures and Code	7
-4.1.1	Process flow of System (this one just describes the process for requesting)	7
-4.1.2	Other figure of code	7
+  4.	Figures and Code	7
+  4.1.1	Process flow of System (this one just describes the process for requesting)	7
+  4.1.2	Other figure of code	7
 5.	Works Cited	7
-
  
 1.	Summary
 Executive Summary Here: Describe the overall goal, method, and major findings/recommendations here. (it’s the TLDR)

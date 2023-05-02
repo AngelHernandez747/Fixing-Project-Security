@@ -1,4 +1,5 @@
-# Security Assessment Report
+# Security Assessment Report  
+<p style="text-align: center;"># Security Assessment Report</p>
 
 Version N.0  
 May 1, 2023  
